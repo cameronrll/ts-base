@@ -1,0 +1,17 @@
+{
+  "name": "ts-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "rm -rf compiled && node_modules/.bin/tsc",
+    "start": "npm run compile && node ./compiled/index.js"
+  },
+  "author": "cameronrll",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.3.0",
+    "typescript": "^2.9.1"
+  }
+}
